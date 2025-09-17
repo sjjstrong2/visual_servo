@@ -2,7 +2,7 @@ import cv2
 import cv2.aruco as aruco
 
 # 选择字典
-aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_4X4_50)
+aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_4X4_250)
 
 # 设置要生成的ID和尺寸（单位像素）
 marker_id = 0

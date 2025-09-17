@@ -8,7 +8,8 @@ import logging
 class Config:
     # marker & camera
     marker_size_mm: float = 95.0
-    camera_matrix_path: str = "bin/camera_matrix.npz"
+    Intrinsic_Parameters_path: str = "bin/camera_matrix.npz"
+    extrinsic_parameters: str = "bin/Extrinsic_parameters.npz"
     aruco_dict: int = 10  # cv2.aruco.DICT_4X4_250 => numeric constant; default 10 typical for 4x4_250
     camera_id: int = 0
 

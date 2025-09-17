@@ -1,6 +1,0 @@
-numpy==1.23.5
-scipy==1.10.1
-opencv-contrib-python==4.7.0.72   # 包含 ArUco 模块
-ur-rtde==1.5.6                   # UR 官方 Python RTDE 接口
-pyyaml==6.0.1                    # 读取配置文件 config.yaml
-matplotlib==3.7.1                # 可选，用于调试/可视化
